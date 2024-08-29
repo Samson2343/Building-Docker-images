@@ -1,1 +1,1 @@
-## Building Docker flask app image
+## Building Docker image via Jenkins
