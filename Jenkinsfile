@@ -4,7 +4,7 @@ pipeline {
     stages {        
         stage('Build docker image'){
             steps{
-                 bat 'docker build -t  Samson43/flaskapp .'
+                 bat 'docker build -t  samson43/flaskapp .'
             }
         }
         stage('Build and run contaner'){
