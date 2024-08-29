@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Build contaner'){
             steps{
-            bat 'docker run -d -it flaskapp'
+                bat 'docker run -d -it flaskapp'
             }
         }
     }
