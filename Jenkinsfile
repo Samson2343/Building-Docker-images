@@ -5,6 +5,7 @@ pipeline {
         stage('Clean workspace') {
             steps {
                 cleanWs()
+                bat 'dir'
             }
         }
         stage('Build docker file'){
