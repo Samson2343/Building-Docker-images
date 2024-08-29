@@ -1,1 +1,1 @@
-## Building Docker images
+## Building Docker image
