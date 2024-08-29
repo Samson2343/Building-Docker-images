@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build and run contaner'){
             steps{
-                bat 'docker run -d -it Samson43/flaskapp'
+                bat 'docker run -d -it samson43/flaskapp'
             }
         }
     }
